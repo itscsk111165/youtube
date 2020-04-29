@@ -2,6 +2,7 @@ class Solution {
 public:
     bool canJump(vector<int>& nums) {
         // minimize the number of jumps
+        int n = nums.size();
         if(n <= 1) {
             cout << 0 << endl;
             return true; // 0 jumps
